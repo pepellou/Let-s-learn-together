@@ -1,7 +1,5 @@
 body {
-	width: 900px;
-	margin: 0px auto;
-	background: url(../img/background.png);
+	background: url(../img/4.jpg);
 	font-family: Arial;
 	font-size: 18px;
 }
@@ -18,12 +16,33 @@ a:hover {
 }
 
 header.main {
+	
+	width: 1200px;
 	background: #fea;
-	margin: 10px 0 0 0;
+	margin: 20px 0 0 30px; 
+	box-shadow: #6374ab 0px 5px 20px;
+        border-radius: 10px;
 }
 
 article {
-	background: #eee;
-	margin: 10px 0px;
+	width: 900px;
+	background: transparent;
+	margin: 10px 0 0 180px;
 	padding: 15px;
+	box-shadow: #6374ab 0px 5px 20px;
+	border-radius: 10px;
+}
+
+div.Login{
+	margin-top: 15px;
+	font-family: "helvetica";
+	font-style: italic;
+	font-weight: bold;
+	color: #0000cc;
+	font-size: 24px;
+}
+
+.CategoriaCursos{
+	text-align:center;
+	color: #999999;
 }
